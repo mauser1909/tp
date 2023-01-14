@@ -1,0 +1,142 @@
+section {
+    display: flex   ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2,5rem;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+.navbar{
+    padding: 2rem;
+    }
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.principal {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 450px;
+    text-align: center;
+}
+.master {
+    padding: 3rem;
+     }
+.imagen-principal {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid #615151;
+}
+.master h2 {
+    font-size: 1,5rem;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+}
+
+.sobre-mi {
+    height: auto;
+    padding: 10px;
+}
+.seccion-oscura {
+    background-color: #1b1b32;
+    color: white;
+}
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    padding: 15px;
+    font-family:'Rubik Dirt', cursive  ;
+    text-align: center;
+   
+        
+}
+.seccion-texto {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 20px 20px 0 20px;
+   
+}
+/* Experiencia */
+.experiencia {
+    padding: 40px 40px 60px 60px;
+
+}
+.experiencia i {
+    font-size: 2,5rem;
+    color: gray;
+    }
+/* Columnas */
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0,2s ease-in;
+}
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+/* Formación */
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px 0;
+}
+.alineado {
+    text-align: left;
+}
+.badges-container {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    align-items: flex-start;
+}
+
+.bi {
+    fill: currentColor;
+  }
+ /* To home button */
+.cmn-divfloat {
+    position: fixed !important;
+    bottom: 45px;
+    right: 15px;
+    display: none;
+}
+.cmn-btncircle {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none   ;
+    }
+}
+@media screen and (min-width:700px) {
+    .inferior-imagen {
+        max-width: 600px
+        ;
+    }
+
+}
+    
