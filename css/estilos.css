@@ -107,12 +107,12 @@ h1 {
     margin: 10px 0;
     align-items: flex-start;
 }
-
 .bi {
     fill: currentColor;
-    margin: 10px;
-    padding: auto;
-  }
+ }
+ .iconos {
+    margin-top: 10px;
+ }
  /* To home button */
 .cmn-divfloat {
     position: fixed !important;
