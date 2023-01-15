@@ -110,7 +110,7 @@ h1 {
 
 .bi {
     fill: currentColor;
-    padding: 5px 5px 5px 5px;
+    margin: 10px;
   }
  /* To home button */
 .cmn-divfloat {
