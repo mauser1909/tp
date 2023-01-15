@@ -6,7 +6,7 @@ section {
 }
 
 h1 {
-    font-size: 2,5rem;
+    font-size: 2.5rem;
     font-family: 'Rubik Dirt', cursive;
 
 }
@@ -35,7 +35,7 @@ h1 {
     border: 2px solid #615151;
 }
 .master h2 {
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     color: whitesmoke;
     font-family: 'Merriweather', serif;
 }
@@ -75,7 +75,7 @@ h1 {
 
 }
 .experiencia i {
-    font-size: 2,5rem;
+    font-size: 2.5rem;
     color: gray;
     }
 /* Columnas */
@@ -85,7 +85,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    transition: all 0,2s ease-in;
+    transition: all 0.2s ease-in;
 }
 .experiencia .columna:hover {
     color: white;
@@ -96,7 +96,7 @@ h1 {
 .experiencia-titulo {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 10px 0;
+    margin-top: 10px;
 }
 .alineado {
     text-align: left;
